@@ -1,10 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+import Quote from "./Quote.js";
+import "./App.css";
 
 function App() {
   return (
-    <div>
-      This is a Infinte dbdjbxd ndnjhghjgdncdnucndcnudncdnnc Scollar project
+    <div className="app-container">
+      <Quote />
     </div>
   );
 }
