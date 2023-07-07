@@ -1,0 +1,46 @@
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.app-container {
+  padding: 0;
+  margin: 0;
+}
+
+#heading {
+  font-size: 40px;
+  border-bottom: 1px solid;
+  padding: 0;
+  text-align: center;
+  padding: 10px;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  background-color: yellowgreen;
+  opacity: 0.9;
+}
+
+.image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px auto;
+  background-color: pink;
+  width: 55vh;
+  height: 80vh;
+  overflow-y: scroll;
+  padding: 20px;
+}
+
+.image-container img {
+  width: 330px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  padding-top: 2px;
+}
