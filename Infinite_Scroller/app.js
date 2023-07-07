@@ -34,7 +34,7 @@ function App() {
     const remainingSpaceofBottom =
       container.scrollHeight - container.scrollTop - container.clientHeight;
 
-    if (remainingSpaceofBottom < 4) {
+    if (remainingSpaceofBottom < 100) {
       callAPI();
     }
   };
