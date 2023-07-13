@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import Quote from "./Quote.js";
-import "./App.css";
+import "./App1.css";
 
 function App() {
   return (

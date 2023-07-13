@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import ReactDOM from "react-dom/client";
-import "./app.css";
+import "./app2.css";
 
 function App() {
   const generateImage = (url) => {
