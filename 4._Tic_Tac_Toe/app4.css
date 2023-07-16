@@ -1,0 +1,83 @@
+html {
+  font-size: 24px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  z-index: 1;
+}
+
+.heading {
+  text-align: center;
+  margin-top: 70px;
+}
+
+.ticTacToe {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1rem;
+}
+
+.turn {
+  font-size: 1rem;
+}
+
+.ms-buttons button {
+  cursor: pointer;
+  margin: 5px 10px;
+  padding: 20px 30px;
+  font-size: 1rem;
+  border-radius: 8px;
+  background-color: cyan;
+  border: none;
+}
+
+/*  */
+
+.main-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.main-container button {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  border: none;
+  margin: 4px;
+  background-color: pink;
+  cursor: pointer;
+  font-size: 20px;
+  color: black;
+}
+
+.winner {
+  color: green;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.draw {
+  color: violet;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+#play-again {
+  font-size: 1.2rem;
+  margin: 0 0 30px 22px;
+  padding: 10px;
+  border-radius: 10px;
+  color: red;
+  border: none;
+  background-color: aqua;
+  cursor: pointer;
+}
+
+.alert {
+  position: fixed;
+  top: 0;
+}
