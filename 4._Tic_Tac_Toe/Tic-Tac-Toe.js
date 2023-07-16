@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./app4.css";
 import { winningCombinations } from "./constants.js";
-import Toast from "./Toast/toast.js";
+import Toast from "../Toast/toast.js";
 
 function TicTacToe() {
   const [turn, setTurn] = useState("Cross");
@@ -41,7 +41,7 @@ function TicTacToe() {
       }
     });
 
-    if (boxVisited >= 8 && !winner) setIsDraw(true);
+    if (boxVisited >= 9 && !winner) setIsDraw(true);
   };
 
   const handleToast = (msg) => {
@@ -53,7 +53,7 @@ function TicTacToe() {
   };
 
   useEffect(() => {
-    if (boxVisited >= 4) {
+    if (boxVisited >= 5) {
       checkWinner();
     }
   }, [boxVisited]);
@@ -137,6 +137,10 @@ function TicTacToe() {
         ))}
       </div>
       {showToast && <Toast toastMessage={message} closeToast={closeToast} />}
+      <button className="reset" onClick={handlePlayAgain}>
+        {" "}
+        Reset
+      </button>
     </div>
   );
 }
