@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./app4.css";
 import { winningCombinations } from "./constants.js";
-import Toast from "../Toast/toast.js";
+import Toast from "./Toast/toast.js";
 
 function TicTacToe() {
   const [turn, setTurn] = useState("Cross");
