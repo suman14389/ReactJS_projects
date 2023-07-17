@@ -1,0 +1,39 @@
+html {
+  font-size: 24px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.star-container {
+  margin-bottom: 100px;
+}
+#star {
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.yellow {
+  color: orange;
+}
+
+.default {
+  color: grey;
+  opacity: 0.8;
+}
+
+.quality {
+  margin-bottom: 5px;
+  min-height: 32px;
+}
