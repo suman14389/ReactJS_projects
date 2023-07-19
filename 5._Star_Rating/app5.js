@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faStar } from "@fortawesome/free-solid-svg-icons";
 import "./app5.css";
 
-function App() {
+function StarRating() {
   const [indexOfStarClicked, setIndexOfStarClicked] = useState(null);
   const [indexOfStarHovered, setIndexOfStarHovered] = useState(null);
   const [clickRating, setClickRating] = useState(null);
@@ -58,4 +58,5 @@ function App() {
 }
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<App />);
+root.render(<StarRating />);
+export default StarRating;

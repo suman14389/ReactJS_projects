@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 24px;
+}
+
+.app-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, rgb(116, 192, 218), lightgreen);
+}
+
+.home-page {
+  font-size: 1.2rem;
+}
+
+h2 {
+  color: crimson;
+}
+
+#start-quiz {
+  margin-left: 35%;
+  margin-top: 25px;
+  font-size: 1.1rem;
+  padding: 6px;
+  border-radius: 10px;
+  border: none;
+  background-color: cornflowerblue;
+  cursor: pointer;
+}
+
+#start-quiz:hover {
+  opacity: 0.85;
+  transform: scale(1.1);
+}
