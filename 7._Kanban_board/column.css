@@ -1,0 +1,42 @@
+#add-btn {
+  padding: 5px;
+  margin-top: 10px;
+  border-radius: 5px;
+  width: 100%;
+  color: white;
+  cursor: pointer;
+  width: fit-content;
+}
+
+.list-items {
+  margin-top: 40px;
+  position: relative;
+}
+
+#item {
+  color: white;
+  background-color: rgb(40, 38, 38);
+
+  margin-top: 10px;
+  padding: 8px 5px;
+  border-radius: 5px;
+}
+
+#save {
+  font-size: 0.8rem;
+  position: absolute;
+  top: -25;
+  right: 0;
+  padding: 2px;
+  cursor: pointer;
+  background-color: rgb(90, 170, 202);
+}
+
+#input {
+  width: 100%;
+  font-size: 1rem;
+  padding: 5px;
+  margin-top: 10px;
+  height: 150px;
+  background-color: white;
+}
