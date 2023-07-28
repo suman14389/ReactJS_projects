@@ -31,27 +31,29 @@ html {
 .board-container {
   display: flex;
   width: 100%;
-  height: 100%;
   justify-content: space-around;
   margin: 20px 0;
+  max-height: 80%;
 }
 
 .column {
   background-color: rgb(79, 76, 76);
-  height: 85%;
   border: 2px solid black;
   padding: 15px;
   width: 20%;
   border-radius: 15px;
   opacity: 0.8;
-  overflow: hidden;
-  overflow-y: scroll;
+  padding-bottom: 0;
+  position: relative;
 }
 
 .column-heading {
   padding: 10px;
   font-size: 1.3rem;
   border-radius: 5px;
+  position: sticky;
+  top: 5px;
+  text-align: center;
 }
 
 .backlog {
@@ -70,7 +72,34 @@ html {
   background-color: orange;
 }
 
-/* .backlog-content {
-  max-height: 92%;
-  overflow-y: scroll;
-} */
+.content {
+  min-height: 40px;
+  max-height: 75%;
+  overflow: scroll;
+  position: relative;
+}
+
+.addItem-container {
+  height: 100px;
+}
+
+/* common css  */
+
+.background0 {
+  background-color: red;
+}
+
+.background1 {
+  background-color: yellow;
+}
+
+.background2 {
+  background-color: greenyellow;
+}
+
+.background3 {
+  background-color: orange;
+}
+.extra-margin {
+  margin: 30px 0;
+}
